@@ -1,5 +1,6 @@
 import React from "react";
 import markologo from "../../../assets/Logo/marko-dark.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -20,56 +21,56 @@ const Footer = () => {
                 Trusted in more than 100 countries & 5 million customers. Have
                 any query ?
               </p>
-              <a
-                href="javascript:;"
+              <Link
+                to="javascript:;"
                 className="py-2.5 px-5 h-9 block w-fit bg-indigo-600 rounded-full shadow-sm text-xs text-white mx-auto transition-all  duration-500 hover:bg-indigo-700 lg:mx-0"
               >
                 Contact us
-              </a>
+              </Link>
             </div>
             {/* End Col */}
             <div className="lg:mx-auto text-left ">
               <h4 className="text-lg text-gray-900 font-medium mb-7">Marko</h4>
               <ul className="text-sm  transition-all duration-500">
                 <li className="mb-6">
-                  <a
-                    href="javascript:;"
+                  <Link
+                    to="javascript:;"
                     className="text-gray-600 whitespace-nowrap hover:text-gray-900"
                   >
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-6">
-                  <a
-                    href="javascript:;"
+                  <Link
+                    to="javascript:;"
                     className=" text-gray-600 whitespace-nowrap hover:text-gray-900"
                   >
                     About
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-6">
-                  <a
-                    href="javascript:;"
+                  <Link
+                    to="javascript:;"
                     className=" text-gray-600 whitespace-nowrap hover:text-gray-900"
                   >
                     Pricing
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-6">
-                  <a
-                    href="javascript:;"
+                  <Link
+                    to="javascript:;"
                     className=" text-gray-600 whitespace-nowrap hover:text-gray-900"
                   >
                     Features
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-6">
-                  <a
-                    href="javascript:;"
+                  <Link
+                    to="javascript:;"
                     className=" text-gray-600 whitespace-nowrap hover:text-gray-900"
                   >
                     Pro Version
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -80,44 +81,44 @@ const Footer = () => {
               </h4>
               <ul className="text-sm  transition-all duration-500">
                 <li className="mb-6">
-                  <a
-                    href="javascript:;"
+                  <Link
+                    to="javascript:;"
                     className="text-gray-600 hover:text-gray-900"
                   >
                     Figma UI System
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-6">
-                  <a
-                    href="javascript:;"
+                  <Link
+                    to="javascript:;"
                     className=" text-gray-600 hover:text-gray-900"
                   >
                     Icons Assets
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-6">
-                  <a
-                    href="javascript:;"
+                  <Link
+                    to="javascript:;"
                     className=" text-gray-600 hover:text-gray-900"
                   >
                     Responsive Blocks
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-6">
-                  <a
-                    href="javascript:;"
+                  <Link
+                    to="javascript:;"
                     className=" text-gray-600 hover:text-gray-900"
                   >
                     Components Library
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-6">
-                  <a
-                    href="javascript:;"
+                  <Link
+                    to="javascript:;"
                     className=" text-gray-600 hover:text-gray-900"
                   >
                     Plugin Guide
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -128,44 +129,44 @@ const Footer = () => {
               </h4>
               <ul className="text-sm  transition-all duration-500">
                 <li className="mb-6">
-                  <a
-                    href="javascript:;"
+                  <Link
+                    to="javascript:;"
                     className="text-gray-600 whitespace-nowrap hover:text-gray-900"
                   >
                     FAQs
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-6">
-                  <a
-                    href="javascript:;"
+                  <Link
+                    to="javascript:;"
                     className=" text-gray-600 whitespace-nowrap hover:text-gray-900"
                   >
                     Quick Start
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-6">
-                  <a
-                    href="javascript:;"
+                  <Link
+                    to="javascript:;"
                     className=" text-gray-600 whitespace-nowrap hover:text-gray-900"
                   >
                     Documentation
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-6">
-                  <a
-                    href="javascript:;"
+                  <Link
+                    to="javascript:;"
                     className=" text-gray-600 whitespace-nowrap hover:text-gray-900"
                   >
                     User Guide
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-6">
-                  <a
-                    href="javascript:;"
+                  <Link
+                    to="javascript:;"
                     className=" text-gray-600 whitespace-nowrap hover:text-gray-900"
                   >
                     Plugin Guide
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -177,7 +178,7 @@ const Footer = () => {
               <ul className="text-sm  transition-all duration-500">
                 <li className="mb-6">
                   <a
-                    href="javascript:;"
+                    to="javascript:;"
                     className="text-gray-600 whitespace-nowrap hover:text-gray-900"
                   >
                     Customer Support
@@ -185,7 +186,7 @@ const Footer = () => {
                 </li>
                 <li className="mb-6">
                   <a
-                    href="javascript:;"
+                    to="javascript:;"
                     className=" text-gray-600 whitespace-nowrap hover:text-gray-900"
                   >
                     Cookies
@@ -193,7 +194,7 @@ const Footer = () => {
                 </li>
                 <li className="mb-6">
                   <a
-                    href="javascript:;"
+                    to="javascript:;"
                     className=" text-gray-600 whitespace-nowrap hover:text-gray-900"
                   >
                     License
@@ -201,7 +202,7 @@ const Footer = () => {
                 </li>
                 <li className="mb-6">
                   <a
-                    href="javascript:;"
+                    to="javascript:;"
                     className=" text-gray-600 whitespace-nowrap hover:text-gray-900"
                   >
                     Terms & Conditions
@@ -209,7 +210,7 @@ const Footer = () => {
                 </li>
                 <li className="mb-6">
                   <a
-                    href="javascript:;"
+                    to="javascript:;"
                     className=" text-gray-600 whitespace-nowrap hover:text-gray-900"
                   >
                     Privacy Policy
@@ -231,11 +232,11 @@ const Footer = () => {
               </div>
               <span className="text-sm text-gray-600 ">
                 © {new Date().getFullYear()}
-                <a href="/"> Marko </a>. All rights reserved.
+                <a to="/"> Marko </a>. All rights reserved.
               </span>
               <div className="flex mt-4 space-x-4 sm:justify-center lg:mt-0 ">
-                <a
-                  href="javascript:;"
+                <Link
+                  to="javascript:;"
                   className="w-8 h-8 rounded-full transition-all duration-500 flex justify-center items-center bg-[#33CCFF] hover:bg-gray-900"
                 >
                   <svg
@@ -253,9 +254,9 @@ const Footer = () => {
                       />
                     </g>
                   </svg>
-                </a>
-                <a
-                  href="javascript:;"
+                </Link>
+                <Link
+                  to="javascript:;"
                   className="relative w-8 h-8 rounded-full transition-all duration-500 flex justify-center items-center bg-[linear-gradient(45deg,#FEE411_6.9%,#FEDB16_10.98%,#FEC125_17.77%,#FE983D_26.42%,#FE5F5E_36.5%,#FE2181_46.24%,#9000DC_85.57%)]  hover:bg-gradient-to-b from-gray-900 to-gray-900  
                         "
                 >
@@ -270,9 +271,9 @@ const Footer = () => {
                       fill="white"
                     ></path>
                   </svg>
-                </a>
-                <a
-                  href="javascript:;"
+                </Link>
+                <Link
+                  to="javascript:;"
                   className="relative w-8 h-8 rounded-full transition-all duration-500 flex justify-center items-center bg-[#337FFF]  hover:bg-gray-900 "
                 >
                   <svg
@@ -286,9 +287,9 @@ const Footer = () => {
                       fill="currentColor"
                     />
                   </svg>
-                </a>
-                <a
-                  href="javascript:;"
+                </Link>
+                <Link
+                  to="javascript:;"
                   className="relative w-8 h-8 rounded-full transition-all duration-500 flex justify-center items-center bg-[#FF0000]  hover:bg-gray-900 "
                 >
                   <svg
@@ -298,13 +299,13 @@ const Footer = () => {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
+                      fillRule="evenodd"
+                      clipRule="evenodd"
                       d="M13.9191 1.10651C14.558 1.27906 15.0602 1.78251 15.2299 2.42069C15.5388 3.57887 15.5388 5.99687 15.5388 5.99687C15.5388 5.99687 15.5388 8.41487 15.2299 9.57306C15.0578 10.2136 14.5556 10.7171 13.9191 10.8872C12.7638 11.1969 8.12875 11.1969 8.12875 11.1969C8.12875 11.1969 3.49603 11.1969 2.33844 10.8872C1.69952 10.7147 1.19735 10.2112 1.0276 9.57306C0.71875 8.41487 0.71875 5.99687 0.71875 5.99687C0.71875 5.99687 0.71875 3.57887 1.0276 2.42069C1.1997 1.78015 1.70188 1.27669 2.33844 1.10651C3.49603 0.796875 8.12875 0.796875 8.12875 0.796875C8.12875 0.796875 12.7638 0.796875 13.9191 1.10651ZM10.4981 5.99687L6.6481 8.22578V3.76796L10.4981 5.99687Z"
                       fill="white"
                     />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
