@@ -4,10 +4,12 @@ import Footer from "../Components/Common/Footer/Footer";
 
 const PublicLayout = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center">
+    <div className="h-screen flex flex-col">
       <Header />
-      <h1 className="text-3xl font-bold">Public Layout</h1>
-      <Outlet /> {/* This renders the nested routes */}
+      <main className="flex-grow flex flex-col items-center justify-center">
+        <h1 className="text-3xl font-bold">Public Layout</h1>
+        <Outlet /> {/* This renders the nested routes */}
+      </main>
       <Footer />
     </div>
   );
