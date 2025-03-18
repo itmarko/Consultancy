@@ -12,6 +12,9 @@ const Footer = () => {
               {/* Logo Section */}
               <div className="mb-4 md:mb-0">
                 <img src={markologo} alt="Logo" className="h-10" />
+                <p className="text-sm text-gray-600 mt-2">
+                  Empowering your business with technology.
+                </p>
               </div>
               <p className="py-8 text-gray-500 lg:max-w-xs text-center lg:text-left">
                 Trusted in more than 100 countries & 5 million customers. Have
@@ -222,9 +225,9 @@ const Footer = () => {
               {/* Logo Section */}
               <div className="mb-4 md:mb-0">
                 <img src={markologo} alt="Logo" className="h-10" />
-                <p className="text-sm text-gray-600 mt-2">
+                {/* <p className="text-sm text-gray-600 mt-2">
                   Empowering your business with technology.
-                </p>
+                </p> */}
               </div>
               <span className="text-sm text-gray-600 ">
                 © {new Date().getFullYear()}
