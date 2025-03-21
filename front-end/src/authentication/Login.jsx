@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";  // Importing useNavigate for v6 and later
 import { login } from "../services/authService"; // Importing login function
-
+import Button from "../Components/Button/Button";
 const LoginPage = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -56,6 +56,8 @@ const LoginPage = () => {
         <button type="submit" disabled={loading}>
           {loading ? "Logging in..." : "Login"}
         </button>
+        <p>i don&apos;t have accout !</p>
+        <Button label = "sign up"/>
       </form>
     </div>
   );

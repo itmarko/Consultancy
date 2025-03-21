@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import contact from "/images/Logo/marko-dark.png";
+import contact from "/images/contact/contact.jpg";
 
 export default function Contact() {
   return (
-    <div className="bg-gray-800 text-gray-200 min-h-screen">
+    <div className="bg-gray-800 text-gray-200 min-h-screen w-full">
       <div className="text-center">
         <h1 className="text-6xl font-bold mt-7 bg-gradient-to-r from-purple-800 to-orange-800 bg-clip-text text-transparent">Contact Me</h1>
         <p className="text-sm p-2 font-light ">You Can Directly Contact Via</p>

@@ -18,7 +18,7 @@ function PublicRouter() {
             {/* Nested routes for public pages implemented here */}
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<Login />} />
-            <Route path="/Contactus" element={<Contact />} />
+            <Route path="/contact-us" element={<Contact />} />
             <Route path="/log-in" element={<Login />} />
           </Route>
 

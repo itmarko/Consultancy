@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import CalltoAction from "../Components/CallToAction/CallToAction";
-
+import About from "./About/About";
 const Home = () => {
   return (
     <div className="bg-gray-100 min-h-screen w-full">
@@ -49,7 +49,7 @@ const Home = () => {
           decisions and grow in your field.
         </p>
       </section>
-
+      <About />
       {/* Contact Section */}
       <div className="rwt-callto-action-area bg-gray-800 py-20">
         <div className="wrapper max-w-screen-lg mx-auto px-4">

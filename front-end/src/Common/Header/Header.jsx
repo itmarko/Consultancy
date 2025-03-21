@@ -67,7 +67,7 @@ export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white shadow-md fixed w-full">
+    <header className="bg-gray-900 shadow-md fixed w-full">
       <nav
         aria-label="Global"
         className="mx-auto flex w-full items-center justify-between p-5 lg:px-8"
@@ -75,14 +75,14 @@ export default function Example() {
         <div className="flex lg:flex-1">
           <Link to="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <img alt="" src={Markodark} className="h-8 w-auto" />
+            <img alt="" src={Markodark} className="h-12 w-auto" />
           </Link>
         </div>
         <div className="flex lg:hidden">
           <button
             type="button"
             onClick={() => setMobileMenuOpen(true)}
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-200"
           >
             <span className="sr-only">Open main menu</span>
             <Bars3Icon aria-hidden="true" className="size-6" />
@@ -90,11 +90,11 @@ export default function Example() {
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
           <Popover className="relative">
-            <PopoverButton className="flex items-center gap-x-1 text-sm/6 font-semibold text-gray-900">
+            <PopoverButton className="flex items-center gap-x-1 text-lg font-semibold text-gray-200">
               Product
               <ChevronDownIcon
                 aria-hidden="true"
-                className="size-5 flex-none text-gray-400"
+                className="size-6 flex-none text-gray-300"
               />
             </PopoverButton>
 
@@ -117,7 +117,7 @@ export default function Example() {
                     <div className="flex-auto">
                       <Link
                         to={item.to}
-                        className="block font-semibold text-gray-900"
+                        className="block font-semibold text-gray-00"
                       >
                         {item.name}
                         <span className="absolute inset-0" />
@@ -127,7 +127,7 @@ export default function Example() {
                   </div>
                 ))}
               </div>
-              <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
+              <div className="grid grid-cols-2 divide-x divide-gray-200/5 bg-gray-50">
                 {callsToAction.map((item) => (
                   <Link
                     key={item.name}
@@ -145,21 +145,18 @@ export default function Example() {
             </PopoverPanel>
           </Popover>
 
-          <Link to="#" className="text-sm/6 font-semibold text-gray-900">
+          <Link to="#" className="text-lg font-semibold text-gray-300">
             Features
           </Link>
-          <Link to="#" className="text-sm/6 font-semibold text-gray-900">
+          <Link to="#" className="text-lg font-semibold text-gray-300">
             Marketplace
           </Link>
-          <Link to="#" className="text-sm/6 font-semibold text-gray-900">
+          <Link to="#" className="text-lg font-semibold text-gray-300">
             Company
           </Link>
         </PopoverGroup>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <Link
-            to={"/log-in"}
-            className="text-sm/6 font-semibold text-gray-900"
-          >
+          <Link to={"/log-in"} className="text-lg font-semibold text-gray-300">
             Log in <span aria-hidden="true">&rarr;</span>
           </Link>
         </div>
