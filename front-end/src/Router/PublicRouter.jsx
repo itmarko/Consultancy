@@ -19,6 +19,7 @@ function PublicRouter() {
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<Login />} />
             <Route path="/Contactus" element={<Contact />} />
+            <Route path="/log-in" element={<Login />} />
           </Route>
 
           {/* Private Routes */}
