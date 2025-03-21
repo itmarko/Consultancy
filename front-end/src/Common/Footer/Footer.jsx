@@ -1,5 +1,5 @@
 import React from "react";
-import markologo from "../../../assets/Logo/marko-dark.png";
+import markologo from "/images/Logo/marko-dark.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -309,6 +309,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
+          {/* <Copyright /> */}
         </div>
       </footer>
     </>

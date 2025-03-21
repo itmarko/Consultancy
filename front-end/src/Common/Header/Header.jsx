@@ -24,7 +24,7 @@ import {
   PhoneIcon,
   PlayCircleIcon,
 } from "@heroicons/react/20/solid";
-import Markodark from "../../../assets/Logo/marko-dark.png";
+import Markodark from "/images/Logo/marko-dark.png";
 import { Link } from "react-router-dom";
 const products = [
   {

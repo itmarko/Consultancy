@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
-import Header from "../Components/Common/Header/Header";
-import Footer from "../Components/Common/Footer/Footer";
-
+import Header from "../Common/Header/Header"
+import Footer from "../Common/Footer/Footer"
+import Copyright from "../Common/Footer/Copyright"
 const PublicLayout = () => {
   return (
     <div className="h-screen flex flex-col">
@@ -10,6 +10,7 @@ const PublicLayout = () => {
         <Outlet /> {/* This renders the nested routes */}
       </main>
       <Footer />
+      <Copyright />
     </div>
   );
 };

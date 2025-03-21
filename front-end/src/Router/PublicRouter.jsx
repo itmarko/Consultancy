@@ -2,11 +2,11 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { AuthProvider } from "../Context/AuthContext";
 import PublicLayout from "../Layout/PublicLayout";
 import PrivateLayout from "../Layout/PrivateLayout";
-import Home from "../Components/Pages/Home";
-import Login from "../Components/Pages/Login";
-import Dashboard from "../Components/Pages/Dashboard";
-import NotFound from "../Components/Pages/NotFound";
-import Contact from "../Components/Pages/ContactUs"
+import Home from "../Pages/Home";
+import Login from "../authentication/Login";
+import Dashboard from "../Pages/Dashboard";
+import NotFound from "../Pages/NotFound";
+import Contact from "../Pages/ContactUs";
 
 function PublicRouter() {
   return (
