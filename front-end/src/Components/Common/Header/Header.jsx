@@ -25,6 +25,7 @@ import {
   PlayCircleIcon,
 } from "@heroicons/react/20/solid";
 import Markodark from "../../../assets/Logo/marko-dark.png"
+import { Link } from "react-router-dom";
 const products = [
   {
     name: "Analytics",
@@ -72,14 +73,14 @@ export default function Example() {
         className="mx-auto flex w-full items-center justify-between p-5 lg:px-8"
       >
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
+          <Link to="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
             <img
               alt=""
               src={Markodark}
               className="h-8 w-auto"
             />
-          </a>
+          </Link>
         </div>
         <div className="flex lg:hidden">
           <button
